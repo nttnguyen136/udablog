@@ -3,18 +3,27 @@
 
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 60px 1fr 40px;
+  grid-template-rows: 80px 1fr 40px;
 }
 
 header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 0px 20px;
 
   box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
-header .logo {
+header nav.nav {
+  flex-grow: 1;
+
+  display: flex;
+  justify-content: end;
+  gap: 16px;
+}
+
+header .logo-wrapper .logo {
   width: 30px;
   height: 30px;
   object-fit: contain;
@@ -22,11 +31,13 @@ header .logo {
 
 footer {
   width: 100%;
+
   display: flex;
   justify-content: center;
   align-items: center;
-
   gap: 16px;
+
+  box-shadow: 0 10px 10px 4px rgba(0, 0, 0, 0.5);
 }
 
 main {
@@ -36,8 +47,11 @@ main {
   padding: 16px;
 }
 
-main h1.title {
-  font-size: 24px;
+main > h1.title {
+  font-size: 32px;
+  line-height: 1.6em;
+  margin-bottom: 24px;
+  color: var(--color-1);
 }
 
 main .blog-list {

@@ -9,19 +9,122 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
+
+  <link rel="stylesheet" href="./styles/variable.css">
   <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/common.css">
   <link rel="stylesheet" href="./styles/layout.css">
-  <link rel="stylesheet" href="./styles/layout.css">
+  <link rel="stylesheet" href="./styles/card.css">
+  <link rel="stylesheet" href="./styles/blog.css">
 </head>
 
 <body>
   <div class="root">
     <header>
-      <img class="logo" src="./images/blogger-svgrepo-com.svg" alt="logo">
+      <div class="logo-wrapper">
+        <img class="logo" src="./images/blogger-svgrepo-com.svg" alt="logo">
+      </div>
+      <nav class="nav">
+        <a href="./index.html" class="link">Home</a>
+        <a href="#" class="link"> Profile </a>
+      </nav>
     </header>
 
     <main>
+      <a href="./index.html" class="btn btn-ghost btn-icon btn-link">
+        <span class="material-symbols-outlined text-md">
+          arrow_back_ios
+        </span>
+        Back
+      </a>
+
+      <section class="blog-top">
+        <h1 class="title">Vitae turpis massa sed elementum</h1>
+        <div class="info">
+          <i class="author"> Lorem ipsum - 2023 May 23</i>
+        </div>
+      </section>
+
+      <section class="blog-content">
+        <p>
+          Netus et malesuada fames ac turpis egestas integer eget aliquet nibh praesent tristique magna sit amet purus
+          gravida quis blandit turpis cursus in hac habitasse platea dictumst quisque sagittis purus
+        </p>
+
+        <p>Facilisi etiam dignissim diam quis enim lobortis scelerisque.</p>
+        <ul>
+          <li>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.
+          </li>
+          <li>Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu.</li>
+          <li>Consequat id porta nibh venenatis cras sed felis eget.</li>
+        </ul>
+
+        <figure>
+          <img src="./images/design.avif" alt="Lorem">
+          <figcaption>Fig.1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit </figcaption>
+        </figure>
+
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Imperdiet nulla malesuada
+          pellentesque elit eget gravida cum sociis natoque. Eget nunc scelerisque viverra mauris in aliquam. Porttitor
+          eget dolor morbi non arcu risus quis varius. Etiam erat velit scelerisque in dictum non consectetur a erat.
+          Sit amet volutpat consequat mauris nunc. Hac habitasse platea dictumst quisque sagittis. Non arcu risus quis
+          varius quam quisque id diam vel. Eu facilisis sed odio morbi quis commodo odio. Dolor sit amet consectetur
+          adipiscing elit duis tristique sollicitudin nibh.
+        </p>
+
+        <p>Accumsan sit amet nulla facilisi morbi tempus: </p>
+
+        <blockquote>
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Accumsan sit amet nulla facilisi morbi tempus. In cursus turpis massa tincidunt dui ut ornare
+            lectus sit. Quis imperdiet massa tincidunt nunc pulvinar sapien et. Est ullamcorper eget nulla facilisi
+            etiam
+            dignissim diam. Scelerisque purus semper eget duis at tellus at. Vel orci porta non pulvinar. Amet mattis
+            vulputate enim nulla aliquet. "
+          </p>
+          <i>- Lorem ipsum </i>
+        </blockquote>
+        <blockquote>
+
+      </section>
+
+
+      <section class="blog-footer">
+
+
+        <div class="blog-author">
+          <img class="author-avatar" src="./images/avatar.avif" alt="avatar">
+          <div class="author-infor">
+            <p> <i><b>Name: </b></i> Lorem ipsum </p>
+            <p> <i><b>Company:</b></i> Udacity </p>
+            <p> <i> <b>Bio:</b> </i> Quis imperdiet massa tincidunt nunc pulvinar sapien et. </p>
+
+            <div class="share-social">
+              <a href="https://web.telegram.org/k/" target="_blank">
+                <img src="./images/telegram-svgrepo-com.svg" alt="social" class="social-icon">
+              </a>
+              <a href="https://facebook.com" target="_blank">
+                <img src="./images/facebook-color-svgrepo-com.svg" alt="social" class="social-icon">
+              </a>
+              <a href="https://twitter.com" target="_blank">
+                <img src="./images/twitter-color-svgrepo-com.svg" alt="social" class="social-icon">
+              </a>
+              <a href="https://www.linkedin.com/" target="_blank">
+                <img src="./images/linkedin-1-svgrepo-com.svg" alt="social" class="social-icon">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
     </main>
 
